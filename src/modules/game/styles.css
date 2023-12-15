@@ -1,0 +1,54 @@
+.menu {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.matrix-container {
+  display: flex;
+}
+
+.matrix-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.matrix-element {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-btn {
+  background-color: blue;
+  border: none;
+  color: white;
+  border-radius: 2px;
+  padding: 4px 6px;
+  cursor: pointer;
+}
+
+.mode-select {
+  width: 120px;
+  height: 23px;
+  text-indent: 4px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.hovered {
+  min-width: 140px;
+}
+.hovered-header {
+  height: 25px;
+  margin: 5px;
+}
+
+.hovered-cell {
+  background: #fffdaf;
+  height: 20px;
+  margin: 5px;
+}
